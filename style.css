@@ -1,0 +1,34 @@
+:root {
+    --bg-dark: #0f0c29;
+    --neon-blue: #00d4ff;
+    --neon-purple: #9d00ff;
+    --text-white: #ffffff;
+    --card-bg: rgba(255, 255, 255, 0.05);
+}
+
+body {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: var(--text-white);
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboard-card {
+    background: var(--card-bg);
+    border: 1px solid var(--neon-blue);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, var(--neon-blue), var(--neon-purple));
+    border: none;
+    box-shadow: 0 4px 15px rgba(157, 0, 255, 0.4);
+}
+
+.sidebar {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
